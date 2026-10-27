@@ -1,0 +1,4 @@
+target/
+git rm -r --cached target
+git add .gitignore
+git commit -m "Ignore target directory"
